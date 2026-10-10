@@ -1,0 +1,23 @@
+{
+  "question_id": "1466",
+  "title": "Reorder Routes to Make All Paths Lead to the City Zero",
+  "difficulty": "Medium",
+  "url": "https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/",
+  "static_validation": {
+    "python": [],
+    "java": [],
+    "cpp": []
+  },
+  "executed": true,
+  "python_tests": {
+    "ran": true,
+    "total": 3,
+    "passed": 3,
+    "unordered": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "details": []
+  },
+  "leetcode_accepted": false
+}
