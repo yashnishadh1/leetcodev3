@@ -1,0 +1,24 @@
+name: CI
+
+on:
+  push:
+    paths: ["src/**", "tests/**", ".github/workflows/**", "requirements.txt"]
+  pull_request:
+    paths: ["src/**", "tests/**", ".github/workflows/**", "requirements.txt"]
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt pytest
+      - run: python -m py_compile src/automation.py src/mark_revision.py
+      - run: python -m pytest -q
