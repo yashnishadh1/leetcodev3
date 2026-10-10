@@ -29,6 +29,38 @@
         "14": "pending",
         "30": "pending"
       }
+    },
+    {
+      "question_id": "1461",
+      "title": "Check If a String Contains All Binary Codes of Size K",
+      "slug": "check-if-a-string-contains-all-binary-codes-of-size-k",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k/",
+      "topics": [
+        "Hash Table",
+        "String",
+        "Bit Manipulation",
+        "Rolling Hash",
+        "Hash Function",
+        "Directed Acyclic Graph"
+      ],
+      "added_date": "2026-10-10",
+      "status": "new",
+      "my_attempt": "solutions/1461-check-if-a-string-contains-all-binary-codes-of-size-k/MY_ATTEMPT.md",
+      "revision_dates": [
+        "2026-10-11",
+        "2026-10-13",
+        "2026-10-17",
+        "2026-10-24",
+        "2026-11-09"
+      ],
+      "revision_status": {
+        "1": "pending",
+        "3": "pending",
+        "7": "pending",
+        "14": "pending",
+        "30": "pending"
+      }
     }
   ]
 }
