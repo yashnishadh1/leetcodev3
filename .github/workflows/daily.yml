@@ -1,0 +1,100 @@
+name: Daily LeetCode Learning PR
+
+on:
+  schedule:
+    - cron: "30 20 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: daily-leetcode
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    env:
+      GEMINI_MODEL: gemini-3.8-flash
+      SOLUTION_LANGUAGES: python,java,cpp
+      DAILY_PROBLEM_COUNT: "1"
+      LEETCODE_DIFFICULTIES: Easy,Medium,Hard
+      DIFFICULTY_WEIGHTS: "Easy:4,Medium:5,Hard:1"
+      MAX_REPAIR_ROUNDS: "2"
+      COMPILE_CHECK: "1"
+      RUN_PYTHON_TESTS: "1"
+      GH_REPO: ${{ github.repository }}
+      BASE_BRANCH: ${{ github.event.repository.default_branch }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Set up Java (for compile checks)
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "21"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Prepare review branch
+        shell: bash
+        run: |
+          set -euo pipefail
+          BRANCH="automation/learning-$(date -u +%F)"
+          echo "LEETCODE_BRANCH=$BRANCH" >> "$GITHUB_ENV"
+          git fetch origin
+          if git ls-remote --exit-code --heads origin "$BRANCH"; then
+            git fetch origin "$BRANCH"
+            git checkout -B "$BRANCH" "origin/$BRANCH"
+          else
+            git checkout -b "$BRANCH"
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Generate learning pack
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          PR_BODY_FILE: ${{ runner.temp }}/pr_body.md
+        run: python src/automation.py
+
+      - name: Publish pull request
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PR_BODY_FILE: ${{ runner.temp }}/pr_body.md
+        shell: bash
+        run: |
+          set -euo pipefail
+          cat "$PR_BODY_FILE" >> "$GITHUB_STEP_SUMMARY" || true
+          git add solutions progress
+          if git diff --cached --quiet; then
+            echo "No changes to publish."
+            exit 0
+          fi
+          git commit -m "Add daily LeetCode learning pack"
+          git push --force-with-lease origin "$LEETCODE_BRANCH"
+          if gh pr view "$LEETCODE_BRANCH" --repo "$GH_REPO"; then
+            echo "Existing PR found."
+          else
+            gh pr create \
+              --repo "$GH_REPO" \
+              --base "$BASE_BRANCH" \
+              --head "$LEETCODE_BRANCH" \
+              --title "Daily LeetCode learning pack" \
+              --body-file "$PR_BODY_FILE"
+          fi
