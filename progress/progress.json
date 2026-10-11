@@ -29,6 +29,35 @@
         "14": "pending",
         "30": "pending"
       }
+    },
+    {
+      "question_id": "2011",
+      "title": "Final Value of Variable After Performing Operations",
+      "slug": "final-value-of-variable-after-performing-operations",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/final-value-of-variable-after-performing-operations/",
+      "topics": [
+        "Array",
+        "String",
+        "Simulation"
+      ],
+      "added_date": "2026-10-11",
+      "status": "new",
+      "my_attempt": "solutions/2011-final-value-of-variable-after-performing-operations/MY_ATTEMPT.md",
+      "revision_dates": [
+        "2026-10-12",
+        "2026-10-14",
+        "2026-10-18",
+        "2026-10-25",
+        "2026-11-10"
+      ],
+      "revision_status": {
+        "1": "pending",
+        "3": "pending",
+        "7": "pending",
+        "14": "pending",
+        "30": "pending"
+      }
     }
   ]
 }
