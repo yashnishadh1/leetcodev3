@@ -58,6 +58,37 @@
         "14": "pending",
         "30": "pending"
       }
+    },
+    {
+      "question_id": "2094",
+      "title": "Finding 3-Digit Even Numbers",
+      "slug": "finding-3-digit-even-numbers",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/finding-3-digit-even-numbers/",
+      "topics": [
+        "Array",
+        "Hash Table",
+        "Recursion",
+        "Sorting",
+        "Enumeration"
+      ],
+      "added_date": "2026-10-11",
+      "status": "new",
+      "my_attempt": "solutions/2094-finding-3-digit-even-numbers/MY_ATTEMPT.md",
+      "revision_dates": [
+        "2026-10-12",
+        "2026-10-14",
+        "2026-10-18",
+        "2026-10-25",
+        "2026-11-10"
+      ],
+      "revision_status": {
+        "1": "pending",
+        "3": "pending",
+        "7": "pending",
+        "14": "pending",
+        "30": "pending"
+      }
     }
   ]
 }
