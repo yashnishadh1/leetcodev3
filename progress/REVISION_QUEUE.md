@@ -5,21 +5,25 @@ Revision intervals: 1, 3, 7, 14 and 30 days after adding a problem.
 
 ## Due today or overdue
 
-- No pending revisions due today.
+- [ ] **Reorder Routes to Make All Paths Lead to the City Zero** (Medium) — [problem](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/) — due 2026-10-11 — `solutions/1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero/MY_ATTEMPT.md`
 
 ## Upcoming
 
-- 2026-10-11: **Reorder Routes to Make All Paths Lead to the City Zero** — day 1 — [problem](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/)
+- 2026-10-12: **Final Value of Variable After Performing Operations** — day 1 — [problem](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/)
 - 2026-10-13: **Reorder Routes to Make All Paths Lead to the City Zero** — day 3 — [problem](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/)
+- 2026-10-14: **Final Value of Variable After Performing Operations** — day 3 — [problem](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/)
 - 2026-10-17: **Reorder Routes to Make All Paths Lead to the City Zero** — day 7 — [problem](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/)
+- 2026-10-18: **Final Value of Variable After Performing Operations** — day 7 — [problem](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/)
 - 2026-10-24: **Reorder Routes to Make All Paths Lead to the City Zero** — day 14 — [problem](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/)
+- 2026-10-25: **Final Value of Variable After Performing Operations** — day 14 — [problem](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/)
 - 2026-11-09: **Reorder Routes to Make All Paths Lead to the City Zero** — day 30 — [problem](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/)
+- 2026-11-10: **Final Value of Variable After Performing Operations** — day 30 — [problem](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/)
 
 ## Stats
 
-- Problems tracked: 1 (Medium 1)
-- Revisions done: 0 / 5
-- Solved (Accepted): 0 / 1
+- Problems tracked: 2 (Easy 1, Medium 1)
+- Revisions done: 0 / 10
+- Solved (Accepted): 0 / 2
 
 ## How to mark a revision complete
 
