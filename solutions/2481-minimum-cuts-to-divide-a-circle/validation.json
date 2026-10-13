@@ -1,0 +1,23 @@
+{
+  "question_id": "2481",
+  "title": "Minimum Cuts to Divide a Circle",
+  "difficulty": "Easy",
+  "url": "https://leetcode.com/problems/minimum-cuts-to-divide-a-circle/",
+  "static_validation": {
+    "python": [],
+    "java": [],
+    "cpp": []
+  },
+  "executed": true,
+  "python_tests": {
+    "ran": true,
+    "total": 3,
+    "passed": 3,
+    "unordered": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "details": []
+  },
+  "leetcode_accepted": false
+}
