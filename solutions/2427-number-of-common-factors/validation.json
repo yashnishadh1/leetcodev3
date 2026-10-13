@@ -1,0 +1,23 @@
+{
+  "question_id": "2427",
+  "title": "Number of Common Factors",
+  "difficulty": "Easy",
+  "url": "https://leetcode.com/problems/number-of-common-factors/",
+  "static_validation": {
+    "python": [],
+    "java": [],
+    "cpp": []
+  },
+  "executed": true,
+  "python_tests": {
+    "ran": true,
+    "total": 4,
+    "passed": 4,
+    "unordered": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "details": []
+  },
+  "leetcode_accepted": false
+}
