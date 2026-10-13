@@ -58,6 +58,34 @@
         "14": "pending",
         "30": "pending"
       }
+    },
+    {
+      "question_id": "2481",
+      "title": "Minimum Cuts to Divide a Circle",
+      "slug": "minimum-cuts-to-divide-a-circle",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/minimum-cuts-to-divide-a-circle/",
+      "topics": [
+        "Math",
+        "Geometry"
+      ],
+      "added_date": "2026-10-13",
+      "status": "new",
+      "my_attempt": "solutions/2481-minimum-cuts-to-divide-a-circle/MY_ATTEMPT.md",
+      "revision_dates": [
+        "2026-10-14",
+        "2026-10-16",
+        "2026-10-20",
+        "2026-10-27",
+        "2026-11-12"
+      ],
+      "revision_status": {
+        "1": "pending",
+        "3": "pending",
+        "7": "pending",
+        "14": "pending",
+        "30": "pending"
+      }
     }
   ]
 }
