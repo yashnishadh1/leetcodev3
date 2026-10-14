@@ -58,6 +58,35 @@
         "14": "pending",
         "30": "pending"
       }
+    },
+    {
+      "question_id": "2928",
+      "title": "Distribute Candies Among Children I",
+      "slug": "distribute-candies-among-children-i",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/distribute-candies-among-children-i/",
+      "topics": [
+        "Math",
+        "Combinatorics",
+        "Enumeration"
+      ],
+      "added_date": "2026-10-14",
+      "status": "new",
+      "my_attempt": "solutions/2928-distribute-candies-among-children-i/MY_ATTEMPT.md",
+      "revision_dates": [
+        "2026-10-15",
+        "2026-10-17",
+        "2026-10-21",
+        "2026-10-28",
+        "2026-11-13"
+      ],
+      "revision_status": {
+        "1": "pending",
+        "3": "pending",
+        "7": "pending",
+        "14": "pending",
+        "30": "pending"
+      }
     }
   ]
 }

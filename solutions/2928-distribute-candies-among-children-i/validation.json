@@ -1,0 +1,23 @@
+{
+  "question_id": "2928",
+  "title": "Distribute Candies Among Children I",
+  "difficulty": "Easy",
+  "url": "https://leetcode.com/problems/distribute-candies-among-children-i/",
+  "static_validation": {
+    "python": [],
+    "java": [],
+    "cpp": []
+  },
+  "executed": true,
+  "python_tests": {
+    "ran": true,
+    "total": 3,
+    "passed": 3,
+    "unordered": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "details": []
+  },
+  "leetcode_accepted": false
+}
