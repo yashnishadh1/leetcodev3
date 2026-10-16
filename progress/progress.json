@@ -58,6 +58,33 @@
         "14": "pending",
         "30": "pending"
       }
+    },
+    {
+      "question_id": "552",
+      "title": "Student Attendance Record II",
+      "slug": "student-attendance-record-ii",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/student-attendance-record-ii/",
+      "topics": [
+        "Dynamic Programming"
+      ],
+      "added_date": "2026-10-16",
+      "status": "new",
+      "my_attempt": "solutions/552-student-attendance-record-ii/MY_ATTEMPT.md",
+      "revision_dates": [
+        "2026-10-17",
+        "2026-10-19",
+        "2026-10-23",
+        "2026-10-30",
+        "2026-11-15"
+      ],
+      "revision_status": {
+        "1": "pending",
+        "3": "pending",
+        "7": "pending",
+        "14": "pending",
+        "30": "pending"
+      }
     }
   ]
 }
