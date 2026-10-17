@@ -58,6 +58,33 @@
         "14": "pending",
         "30": "pending"
       }
+    },
+    {
+      "question_id": "1117",
+      "title": "Building H2O",
+      "slug": "building-h2o",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/building-h2o/",
+      "topics": [
+        "Concurrency"
+      ],
+      "added_date": "2026-10-17",
+      "status": "new",
+      "my_attempt": "solutions/1117-building-h2o/MY_ATTEMPT.md",
+      "revision_dates": [
+        "2026-10-18",
+        "2026-10-20",
+        "2026-10-24",
+        "2026-10-31",
+        "2026-11-16"
+      ],
+      "revision_status": {
+        "1": "pending",
+        "3": "pending",
+        "7": "pending",
+        "14": "pending",
+        "30": "pending"
+      }
     }
   ]
 }
