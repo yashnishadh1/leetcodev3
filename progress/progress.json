@@ -58,6 +58,33 @@
         "14": "pending",
         "30": "pending"
       }
+    },
+    {
+      "question_id": "3516",
+      "title": "Find Closest Person",
+      "slug": "find-closest-person",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/find-closest-person/",
+      "topics": [
+        "Math"
+      ],
+      "added_date": "2026-10-18",
+      "status": "new",
+      "my_attempt": "solutions/3516-find-closest-person/MY_ATTEMPT.md",
+      "revision_dates": [
+        "2026-10-19",
+        "2026-10-21",
+        "2026-10-25",
+        "2026-11-01",
+        "2026-11-17"
+      ],
+      "revision_status": {
+        "1": "pending",
+        "3": "pending",
+        "7": "pending",
+        "14": "pending",
+        "30": "pending"
+      }
     }
   ]
 }
