@@ -58,6 +58,33 @@
         "14": "pending",
         "30": "pending"
       }
+    },
+    {
+      "question_id": "2469",
+      "title": "Convert the Temperature",
+      "slug": "convert-the-temperature",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/convert-the-temperature/",
+      "topics": [
+        "Math"
+      ],
+      "added_date": "2026-10-19",
+      "status": "new",
+      "my_attempt": "solutions/2469-convert-the-temperature/MY_ATTEMPT.md",
+      "revision_dates": [
+        "2026-10-20",
+        "2026-10-22",
+        "2026-10-26",
+        "2026-11-02",
+        "2026-11-18"
+      ],
+      "revision_status": {
+        "1": "pending",
+        "3": "pending",
+        "7": "pending",
+        "14": "pending",
+        "30": "pending"
+      }
     }
   ]
 }
