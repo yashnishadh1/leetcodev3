@@ -58,6 +58,35 @@
         "14": "pending",
         "30": "pending"
       }
+    },
+    {
+      "question_id": "3158",
+      "title": "Find the XOR of Numbers Which Appear Twice",
+      "slug": "find-the-xor-of-numbers-which-appear-twice",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/find-the-xor-of-numbers-which-appear-twice/",
+      "topics": [
+        "Array",
+        "Hash Table",
+        "Bit Manipulation"
+      ],
+      "added_date": "2026-10-20",
+      "status": "new",
+      "my_attempt": "solutions/3158-find-the-xor-of-numbers-which-appear-twice/MY_ATTEMPT.md",
+      "revision_dates": [
+        "2026-10-21",
+        "2026-10-23",
+        "2026-10-27",
+        "2026-11-03",
+        "2026-11-19"
+      ],
+      "revision_status": {
+        "1": "pending",
+        "3": "pending",
+        "7": "pending",
+        "14": "pending",
+        "30": "pending"
+      }
     }
   ]
 }
