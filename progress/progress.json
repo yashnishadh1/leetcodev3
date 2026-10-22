@@ -60,23 +60,84 @@
       }
     },
     {
-      "question_id": "3516",
-      "title": "Find Closest Person",
-      "slug": "find-closest-person",
+      "question_id": "2481",
+      "title": "Minimum Cuts to Divide a Circle",
+      "slug": "minimum-cuts-to-divide-a-circle",
       "difficulty": "Easy",
-      "url": "https://leetcode.com/problems/find-closest-person/",
+      "url": "https://leetcode.com/problems/minimum-cuts-to-divide-a-circle/",
       "topics": [
-        "Math"
+        "Math",
+        "Geometry"
       ],
-      "added_date": "2026-10-18",
+      "added_date": "2026-10-13",
       "status": "new",
-      "my_attempt": "solutions/3516-find-closest-person/MY_ATTEMPT.md",
+      "my_attempt": "solutions/2481-minimum-cuts-to-divide-a-circle/MY_ATTEMPT.md",
       "revision_dates": [
-        "2026-10-19",
-        "2026-10-21",
-        "2026-10-25",
-        "2026-11-01",
-        "2026-11-17"
+        "2026-10-14",
+        "2026-10-16",
+        "2026-10-20",
+        "2026-10-27",
+        "2026-11-12"
+      ],
+      "revision_status": {
+        "1": "pending",
+        "3": "pending",
+        "7": "pending",
+        "14": "pending",
+        "30": "pending"
+      }
+    },
+    {
+      "question_id": "2427",
+      "title": "Number of Common Factors",
+      "slug": "number-of-common-factors",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/number-of-common-factors/",
+      "topics": [
+        "Math",
+        "Enumeration",
+        "Number Theory",
+        "Euclidean Algorithm",
+        "Greatest Common Divisor"
+      ],
+      "added_date": "2026-10-13",
+      "status": "new",
+      "my_attempt": "solutions/2427-number-of-common-factors/MY_ATTEMPT.md",
+      "revision_dates": [
+        "2026-10-14",
+        "2026-10-16",
+        "2026-10-20",
+        "2026-10-27",
+        "2026-11-12"
+      ],
+      "revision_status": {
+        "1": "pending",
+        "3": "pending",
+        "7": "pending",
+        "14": "pending",
+        "30": "pending"
+      }
+    },
+    {
+      "question_id": "2276",
+      "title": "Count Integers in Intervals",
+      "slug": "count-integers-in-intervals",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/count-integers-in-intervals/",
+      "topics": [
+        "Design",
+        "Segment Tree",
+        "Ordered Set"
+      ],
+      "added_date": "2026-10-21",
+      "status": "new",
+      "my_attempt": "solutions/2276-count-integers-in-intervals/MY_ATTEMPT.md",
+      "revision_dates": [
+        "2026-10-22",
+        "2026-10-24",
+        "2026-10-28",
+        "2026-11-04",
+        "2026-11-20"
       ],
       "revision_status": {
         "1": "pending",
