@@ -1,0 +1,23 @@
+{
+  "question_id": "2276",
+  "title": "Count Integers in Intervals",
+  "difficulty": "Hard",
+  "url": "https://leetcode.com/problems/count-integers-in-intervals/",
+  "static_validation": {
+    "python": [],
+    "java": [],
+    "cpp": []
+  },
+  "executed": false,
+  "python_tests": {
+    "ran": false,
+    "total": 0,
+    "passed": 0,
+    "unordered": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 2,
+    "details": []
+  },
+  "leetcode_accepted": false
+}

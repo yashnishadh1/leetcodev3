@@ -11,24 +11,34 @@ Revision intervals: 1, 3, 7, 14 and 30 days after adding a problem.
 - [ ] **Final Value of Variable After Performing Operations** (Easy) — [problem](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/) — due 2026-10-12 — `solutions/2011-final-value-of-variable-after-performing-operations/MY_ATTEMPT.md`
 - [ ] **Final Value of Variable After Performing Operations** (Easy) — [problem](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/) — due 2026-10-14 — `solutions/2011-final-value-of-variable-after-performing-operations/MY_ATTEMPT.md`
 - [ ] **Final Value of Variable After Performing Operations** (Easy) — [problem](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/) — due 2026-10-18 — `solutions/2011-final-value-of-variable-after-performing-operations/MY_ATTEMPT.md`
+- [ ] **Minimum Cuts to Divide a Circle** (Easy) — [problem](https://leetcode.com/problems/minimum-cuts-to-divide-a-circle/) — due 2026-10-14 — `solutions/2481-minimum-cuts-to-divide-a-circle/MY_ATTEMPT.md`
+- [ ] **Minimum Cuts to Divide a Circle** (Easy) — [problem](https://leetcode.com/problems/minimum-cuts-to-divide-a-circle/) — due 2026-10-16 — `solutions/2481-minimum-cuts-to-divide-a-circle/MY_ATTEMPT.md`
+- [ ] **Minimum Cuts to Divide a Circle** (Easy) — [problem](https://leetcode.com/problems/minimum-cuts-to-divide-a-circle/) — due 2026-10-20 — `solutions/2481-minimum-cuts-to-divide-a-circle/MY_ATTEMPT.md`
+- [ ] **Number of Common Factors** (Easy) — [problem](https://leetcode.com/problems/number-of-common-factors/) — due 2026-10-14 — `solutions/2427-number-of-common-factors/MY_ATTEMPT.md`
+- [ ] **Number of Common Factors** (Easy) — [problem](https://leetcode.com/problems/number-of-common-factors/) — due 2026-10-16 — `solutions/2427-number-of-common-factors/MY_ATTEMPT.md`
+- [ ] **Number of Common Factors** (Easy) — [problem](https://leetcode.com/problems/number-of-common-factors/) — due 2026-10-20 — `solutions/2427-number-of-common-factors/MY_ATTEMPT.md`
 
 ## Upcoming
 
-- 2026-10-20: **Convert the Temperature** — day 1 — [problem](https://leetcode.com/problems/convert-the-temperature/)
-- 2026-10-22: **Convert the Temperature** — day 3 — [problem](https://leetcode.com/problems/convert-the-temperature/)
+- 2026-10-22: **Count Integers in Intervals** — day 1 — [problem](https://leetcode.com/problems/count-integers-in-intervals/)
+- 2026-10-24: **Count Integers in Intervals** — day 3 — [problem](https://leetcode.com/problems/count-integers-in-intervals/)
 - 2026-10-24: **Reorder Routes to Make All Paths Lead to the City Zero** — day 14 — [problem](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/)
 - 2026-10-25: **Final Value of Variable After Performing Operations** — day 14 — [problem](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/)
-- 2026-10-26: **Convert the Temperature** — day 7 — [problem](https://leetcode.com/problems/convert-the-temperature/)
-- 2026-11-02: **Convert the Temperature** — day 14 — [problem](https://leetcode.com/problems/convert-the-temperature/)
+- 2026-10-27: **Minimum Cuts to Divide a Circle** — day 14 — [problem](https://leetcode.com/problems/minimum-cuts-to-divide-a-circle/)
+- 2026-10-27: **Number of Common Factors** — day 14 — [problem](https://leetcode.com/problems/number-of-common-factors/)
+- 2026-10-28: **Count Integers in Intervals** — day 7 — [problem](https://leetcode.com/problems/count-integers-in-intervals/)
+- 2026-11-04: **Count Integers in Intervals** — day 14 — [problem](https://leetcode.com/problems/count-integers-in-intervals/)
 - 2026-11-09: **Reorder Routes to Make All Paths Lead to the City Zero** — day 30 — [problem](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/)
 - 2026-11-10: **Final Value of Variable After Performing Operations** — day 30 — [problem](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/)
-- 2026-11-18: **Convert the Temperature** — day 30 — [problem](https://leetcode.com/problems/convert-the-temperature/)
+- 2026-11-12: **Minimum Cuts to Divide a Circle** — day 30 — [problem](https://leetcode.com/problems/minimum-cuts-to-divide-a-circle/)
+- 2026-11-12: **Number of Common Factors** — day 30 — [problem](https://leetcode.com/problems/number-of-common-factors/)
+- 2026-11-20: **Count Integers in Intervals** — day 30 — [problem](https://leetcode.com/problems/count-integers-in-intervals/)
 
 ## Stats
 
-- Problems tracked: 3 (Easy 2, Medium 1)
-- Revisions done: 0 / 15
-- Solved (Accepted): 0 / 3
+- Problems tracked: 5 (Easy 3, Hard 1, Medium 1)
+- Revisions done: 0 / 25
+- Solved (Accepted): 0 / 5
 
 ## How to mark a revision complete
 
