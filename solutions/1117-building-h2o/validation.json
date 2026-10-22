@@ -1,0 +1,26 @@
+{
+  "question_id": "1117",
+  "title": "Building H2O",
+  "difficulty": "Medium",
+  "url": "https://leetcode.com/problems/building-h2o/",
+  "static_validation": {
+    "python": [],
+    "java": [],
+    "cpp": []
+  },
+  "executed": true,
+  "python_tests": {
+    "ran": true,
+    "total": 2,
+    "passed": 0,
+    "unordered": 0,
+    "failed": 0,
+    "errors": 2,
+    "skipped": 0,
+    "details": [
+      "error: input water = \"HOH\" -> got IndexError: list index out of range, expected 'HHO'",
+      "error: input water = \"OOHHHH\" -> got IndexError: list index out of range, expected 'HHOHHO'"
+    ]
+  },
+  "leetcode_accepted": false
+}
