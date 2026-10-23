@@ -1,0 +1,23 @@
+{
+  "question_id": "1045",
+  "title": "Customers Who Bought All Products",
+  "difficulty": "Medium",
+  "url": "https://leetcode.com/problems/customers-who-bought-all-products/",
+  "static_validation": {
+    "python": [],
+    "java": [],
+    "cpp": []
+  },
+  "executed": false,
+  "python_tests": {
+    "ran": false,
+    "total": 0,
+    "passed": 0,
+    "unordered": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 2,
+    "details": []
+  },
+  "leetcode_accepted": false
+}

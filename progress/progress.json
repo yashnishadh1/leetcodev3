@@ -146,6 +146,33 @@
         "14": "pending",
         "30": "pending"
       }
+    },
+    {
+      "question_id": "1045",
+      "title": "Customers Who Bought All Products",
+      "slug": "customers-who-bought-all-products",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/customers-who-bought-all-products/",
+      "topics": [
+        "Database"
+      ],
+      "added_date": "2026-10-23",
+      "status": "new",
+      "my_attempt": "solutions/1045-customers-who-bought-all-products/MY_ATTEMPT.md",
+      "revision_dates": [
+        "2026-10-24",
+        "2026-10-26",
+        "2026-10-30",
+        "2026-11-06",
+        "2026-11-22"
+      ],
+      "revision_status": {
+        "1": "pending",
+        "3": "pending",
+        "7": "pending",
+        "14": "pending",
+        "30": "pending"
+      }
     }
   ]
 }
