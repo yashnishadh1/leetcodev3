@@ -1,0 +1,27 @@
+{
+  "question_id": "2726",
+  "title": "Calculator with Method Chaining",
+  "difficulty": "Easy",
+  "url": "https://leetcode.com/problems/calculator-with-method-chaining/",
+  "static_validation": {
+    "python": [],
+    "java": [],
+    "cpp": []
+  },
+  "executed": true,
+  "python_tests": {
+    "ran": true,
+    "total": 3,
+    "passed": 0,
+    "unordered": 0,
+    "failed": 0,
+    "errors": 3,
+    "skipped": 0,
+    "details": [
+      "error: input actions = [\"Calculator\", \"add\", \"subtract\", \"getResult\"], values = [10, 5, 7] -> got IndexError: list index out of range, expected 8",
+      "error: input actions = [\"Calculator\", \"multiply\", \"power\", \"getResult\"], values = [2, 5, 2] -> got IndexError: list index out of range, expected 100",
+      "error: input actions = [\"Calculator\", \"divide\", \"getResult\"], values = [20, 0] -> got IndexError: list index out of range, expected 'Division by zero is not allowed'"
+    ]
+  },
+  "leetcode_accepted": false
+}
