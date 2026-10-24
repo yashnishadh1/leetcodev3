@@ -60,6 +60,25 @@
       }
     },
     {
+      "question_id": "3722",
+      "title": "Lexicographically Smallest String After Reverse",
+      "slug": "lexicographically-smallest-string-after-reverse",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/lexicographically-smallest-string-after-reverse/",
+      "topics": [
+        "Two Pointers",
+        "Binary Search",
+        "Enumeration"
+      ],
+      "added_date": "2026-10-15",
+      "status": "new",
+      "my_attempt": "solutions/3722-lexicographically-smallest-string-after-reverse/MY_ATTEMPT.md",
+      "revision_dates": [
+        "2026-10-16",
+        "2026-10-18",
+        "2026-10-22",
+        "2026-10-29",
+        "2026-11-14"
       "question_id": "2481",
       "title": "Minimum Cuts to Divide a Circle",
       "slug": "minimum-cuts-to-divide-a-circle",
