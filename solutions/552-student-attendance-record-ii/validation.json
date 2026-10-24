@@ -1,0 +1,23 @@
+{
+  "question_id": "552",
+  "title": "Student Attendance Record II",
+  "difficulty": "Hard",
+  "url": "https://leetcode.com/problems/student-attendance-record-ii/",
+  "static_validation": {
+    "python": [],
+    "java": [],
+    "cpp": []
+  },
+  "executed": true,
+  "python_tests": {
+    "ran": true,
+    "total": 3,
+    "passed": 3,
+    "unordered": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "details": []
+  },
+  "leetcode_accepted": false
+}
